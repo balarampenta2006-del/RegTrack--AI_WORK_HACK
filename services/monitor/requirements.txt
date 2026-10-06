@@ -1,0 +1,12 @@
+# regtrack monitor service — shared venv packages are pre-installed (PLAN.md §6).
+# Keep this list in sync with `pip list` in D:\AI_Hack\.venv; do not add
+# Playwright or firecrawl (optional engines degrade gracefully without them).
+httpx>=0.27
+requests>=2.31
+beautifulsoup4>=4.12
+lxml>=5.0
+PyYAML>=6.0
+fastapi>=0.110
+uvicorn>=0.29
+python-dotenv>=1.0
+pytest>=8.0

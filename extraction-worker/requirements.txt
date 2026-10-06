@@ -1,0 +1,10 @@
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+beautifulsoup4==4.13.4
+requests==2.32.3
+firecrawl-py==1.15.0
+lxml==5.4.0
+pydantic==2.11.3
+pydantic-settings==2.9.1
+python-dotenv==1.1.0
+httpx==0.28.1

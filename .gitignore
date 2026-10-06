@@ -1,0 +1,35 @@
+# ---- secrets / local env ----
+.env
+.env.local
+*.local
+
+# ---- Python ----
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# ---- Java / Maven ----
+target/
+*.class
+
+# ---- Node ----
+node_modules/
+frontend/dist/
+
+# ---- runtime / data ----
+storage/
+logs/
+*.log
+scripts/*.log
+n8n/data/
+docker-data/
+
+# ---- OS / editors ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+HELP.md

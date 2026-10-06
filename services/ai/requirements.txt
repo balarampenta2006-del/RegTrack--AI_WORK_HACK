@@ -1,0 +1,9 @@
+# regtrack-ai - runtime dependencies (all pre-installed in D:\AI_Hack\.venv)
+fastapi>=0.115
+uvicorn>=0.30
+requests>=2.31
+python-dotenv>=1.0
+openai>=1.40
+chromadb>=1.0
+# dev/test
+pytest>=8.0

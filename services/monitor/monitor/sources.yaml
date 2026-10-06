@@ -1,0 +1,24 @@
+# Watch list for the monitor service.
+# Codes/URLs must stay consistent with the seeded regulation_sources
+# (backend SeedBootstrap.java, PLAN.md §1): MCA, RBI, SEBI.
+sources:
+  - code: MCA
+    name: Ministry of Corporate Affairs
+    base_url: https://www.mca.gov.in
+    watch_url: https://www.mca.gov.in/content/mca/global/en/acts-rules.html
+    engine: http
+    enabled: true
+
+  - code: RBI
+    name: Reserve Bank of India
+    base_url: https://www.rbi.org.in
+    watch_url: https://www.rbi.org.in/Scripts/BS_ViewMasNotifications.aspx
+    engine: http
+    enabled: true
+
+  - code: SEBI
+    name: Securities and Exchange Board of India
+    base_url: https://www.sebi.gov.in
+    watch_url: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=11
+    engine: http
+    enabled: true
